@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/txt_asma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asma"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#29832C"
+    android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:id="@+id/txt_arti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arti"
+        android:textSize="16sp"
+        android:textColor="#757575"
+    android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:id="@+id/txt_ayat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayat"
+        android:textSize="16sp"
+        android:textColor="#757575"
+        android:fontFamily="sans-serif"/>
+<!--    garis pemisah-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="#E0E0E0" />
+
+</LinearLayout>
